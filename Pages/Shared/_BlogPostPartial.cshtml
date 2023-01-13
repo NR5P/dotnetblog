@@ -6,7 +6,7 @@
     </h3>
     <time>posted {readablePostDate(post.postDate)}</time>
     <p></p>
-    <div>@Model.body</div>
+    <div>@Html.Raw(Model.body)</div>
     blogid == undefined &&
     <div class="read-the-rest">
         <a href="{`/${post.id}`}" class="link-text">View Post</a>

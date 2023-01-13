@@ -70,3 +70,4 @@
 /home/nathan/Desktop/dotnethomepage/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_BlogPostPartial.cshtml.g.cs
 /home/nathan/Desktop/dotnethomepage/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_header.cshtml.g.cs
 /home/nathan/Desktop/dotnethomepage/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_navbar.cshtml.g.cs
+/home/nathan/Desktop/dotnethomepage/obj/Debug/netcoreapp3.1/Razor/Pages/About.cshtml.g.cs

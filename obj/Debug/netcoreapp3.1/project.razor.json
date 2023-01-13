@@ -14402,6 +14402,11 @@
   "RootNamespace": "dotnethomepage",
   "Documents": [
     {
+      "FilePath": "/home/nathan/Desktop/dotnethomepage/Pages/About.cshtml",
+      "TargetPath": "Pages\\About.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/nathan/Desktop/dotnethomepage/Pages/Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
