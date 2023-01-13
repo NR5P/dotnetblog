@@ -22,7 +22,32 @@ namespace dotnethomepage.DB
 
         public BlogPost getBlogPost(int id)
         {
-            throw new System.NotImplementedException();
+            BlogPost blogPost = null;
+            using (SQLiteConnection db = new SQLiteConnection(_connectionString))
+            {
+                using (SQLiteCommand cmd = db.CreateCommand())
+                {
+                    db.Open();
+                    cmd.CommandText = "SELECT id, title, short, body, postDate FROM blogPost WHERE id = @param1 ORDER BY id DESC";
+                    cmd.Parameters.Add(new SQLiteParameter("@param1", id));
+                    SQLiteDataReader reader = cmd.ExecuteReader();
+                    if (reader.HasRows)
+                    {
+                        while (reader.Read())
+                        {
+                            blogPost = new BlogPost() { 
+                                id = reader.GetInt32(0),
+                                title = reader.GetString(1),
+                                shortBody = reader.GetString(2),
+                                body = reader.GetString(3),
+                                postDate = reader.GetDateTime(4)
+                            };
+                        }
+                    }
+                    db.Close();
+                }
+            }
+            return blogPost;
         }
 
         public List<BlogPost> getBlogPosts()

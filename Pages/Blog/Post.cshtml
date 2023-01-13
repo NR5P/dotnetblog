@@ -1,0 +1,13 @@
+﻿@page "/Blog/Post/{id}"
+@model dotnethomepage.Pages.PostModel
+@{
+}
+
+<div class="blogpost">
+    <h3>
+        @Model.blogPost.title
+    </h3>
+    <time>posted @Model.blogPost.postDate.ToString("MMMM dd yyyy")</time>
+    <p></p>
+    <div>@Html.Raw(Model.blogPost.body)</div>
+</div>

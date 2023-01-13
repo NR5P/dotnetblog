@@ -14452,6 +14452,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/nathan/Desktop/dotnethomepage/Pages/Blog/Post.cshtml",
+      "TargetPath": "Pages\\Blog\\Post.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/nathan/Desktop/dotnethomepage/Pages/Index.cshtml",
       "TargetPath": "Pages\\Index.cshtml",
       "FileKind": "mvc"
