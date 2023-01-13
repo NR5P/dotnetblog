@@ -4,7 +4,7 @@
     <h3>
         @Model.title
     </h3>
-    <time>posted {readablePostDate(post.postDate)}</time>
+    <time>posted @Model.postDate.ToString("MMMM dd yyyy")</time>
     <p></p>
     <div>@Html.Raw(Model.body)</div>
     blogid == undefined &&
