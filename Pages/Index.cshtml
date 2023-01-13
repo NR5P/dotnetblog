@@ -1,11 +1,10 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Nathan's Blog";
 }
 
 <div class="text-center">
-    @await Html.PartialAsync("_header")
     <h1 class="display-4">Welcome</h1>
     <p id="sub-header">I suggest checking out the <a href="/about" class="link-text">about</a> page for a summary. <br></br>My email is <a href="mailto:nathan@nr5p.com" class="link-text">nathan@nr5p.com</a>.<br></br>Download my <a href = {resumePDF} target = "_blank" class="link-text" id="resume-text">resume here</a></p>
     @await Html.PartialAsync("_BlogPostsPartial")
