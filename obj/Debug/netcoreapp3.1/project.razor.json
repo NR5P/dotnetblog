@@ -14407,6 +14407,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/nathan/Desktop/dotnethomepage/Pages/Shared/_BlogPostsPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_BlogPostsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/nathan/Desktop/dotnethomepage/Pages/Shared/_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -14422,8 +14427,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/nathan/Desktop/dotnethomepage/Pages/Shared/_navbar.cshtml",
+      "TargetPath": "Pages\\Shared\\_navbar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/nathan/Desktop/dotnethomepage/Pages/Shared/_BlogPostPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_BlogPostPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/nathan/Desktop/dotnethomepage/Pages/Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/nathan/Desktop/dotnethomepage/Pages/Shared/_header.cshtml",
+      "TargetPath": "Pages\\Shared\\_header.cshtml",
       "FileKind": "mvc"
     },
     {

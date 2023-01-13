@@ -66,3 +66,7 @@
 /home/nathan/Desktop/dotnethomepage/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
 /home/nathan/Desktop/dotnethomepage/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll
 /home/nathan/Desktop/dotnethomepage/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll
+/home/nathan/Desktop/dotnethomepage/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_BlogPostsPartial.cshtml.g.cs
+/home/nathan/Desktop/dotnethomepage/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_BlogPostPartial.cshtml.g.cs
+/home/nathan/Desktop/dotnethomepage/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_header.cshtml.g.cs
+/home/nathan/Desktop/dotnethomepage/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_navbar.cshtml.g.cs

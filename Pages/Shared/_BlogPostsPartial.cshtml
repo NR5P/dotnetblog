@@ -1,0 +1,7 @@
+@model IndexModel
+
+<div className="container">
+    @foreach(@Models.BlogPost post in Model.blogPosts) {
+        @await Html.PartialAsync("_BlogPostPartial", post)
+    }
+</div>
