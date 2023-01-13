@@ -5,6 +5,13 @@
 }
 
 <div class="text-center">
-    <p id="sub-header">I suggest checking out the <a href="/about" class="link-text">about</a> page for a summary. <br></br>My email is <a href="mailto:nathan@nr5p.com" class="link-text">nathan@nr5p.com</a>.<br></br>Download my <a href = {resumePDF} target = "_blank" class="link-text" id="resume-text">resume here</a></p>
+    <p class="sub-header">
+        I suggest checking out the <a href="/about" class="link-text">about</a> page for a summary.
+    </p>
+    <p class="sub-header">
+        My email is <a href="mailto:nathan@nr5p.com" class="link-text">nathan@nr5p.com</a>.
+    </p class="sub-header">
+        Download my <a href="/images/Nathan_Rigg_Resume.pdf" target = "_blank" class="link-text" id="resume-text">resume here</a>
+    </p>
     @await Html.PartialAsync("_BlogPostsPartial")
 </div>

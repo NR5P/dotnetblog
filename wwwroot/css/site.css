@@ -32,11 +32,12 @@
 
 .post-par {
   margin-top: 20px;
+  text-align: left;
 }
 
-#sub-header {
+.sub-header {
   text-align: center;
-  margin: 20px 0px 20px 0px;
+  margin: 10px 0px 10px 0px;
 }
 
 .link-text {

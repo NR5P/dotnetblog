@@ -6,9 +6,8 @@
     </h3>
     <time>posted @Model.postDate.ToString("MMMM dd yyyy")</time>
     <p></p>
-    <div>@Html.Raw(Model.body)</div>
-    blogid == undefined &&
+    <div>@Html.Raw(Model.shortBody)</div>
     <div class="read-the-rest">
-        <a href="{`/${post.id}`}" class="link-text">View Post</a>
+        <a href="post/@Model.id" class="link-text">View Post</a>
     </div>
 </div>
