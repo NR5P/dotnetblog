@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using dotnethomepage.Models;
 using System.Data.SQLite;
 using System;
-using System.Configuration;
+//using System.Configuration;
 using Microsoft.Extensions.Configuration;
 
 namespace dotnethomepage.DB
@@ -11,9 +11,6 @@ namespace dotnethomepage.DB
     {
         private string _connectionString {get; set;}
         public BlogDb(IConfiguration config) {
-            var test = ConfigurationManager.AppSettings;
-            //string connectionString = config["dbConnectionString"]; 
-            //string connectionString = config.GetValue<string>("dbConnectionString"); 
             string connectionString = config.GetConnectionString("Default"); 
             if (string.IsNullOrWhiteSpace(connectionString))
                 throw new ArgumentException(nameof(connectionString));
