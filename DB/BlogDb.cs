@@ -11,7 +11,8 @@ namespace dotnethomepage.DB
     {
         private string _connectionString {get; set;}
         public BlogDb(IConfiguration config) {
-            string connectionString = config.GetConnectionString("Default"); 
+            //string connectionString = config.GetConnectionString("Default"); 
+            string connectionString = "Data Source=/home/nathan/Desktop/dotnethomepage/DB/blogposts.db;Version=3;"; 
             if (string.IsNullOrWhiteSpace(connectionString))
                 throw new ArgumentException(nameof(connectionString));
             _connectionString = connectionString;
