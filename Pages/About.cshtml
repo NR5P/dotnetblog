@@ -4,6 +4,14 @@
     ViewData["Title"] = "About me";
 }
 
+@section Scripts
+{
+    <script>
+        document.getElementById("blog-nav-item").classList.remove("active");
+        document.getElementById("about-nav-item").classList.add("active");
+    </script>
+}
+
 @foreach(Models.AboutItem item in Model.aboutList) {
     <div className="about-section">
         <h2>@item.title</h2>
