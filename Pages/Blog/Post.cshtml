@@ -1,7 +1,12 @@
 ﻿@page "/Blog/Post/{id}"
 @model dotnethomepage.Pages.PostModel
-@{
+
+@section metatags
+{
+    <meta name="description" content="@Model.blogPost.metaDescription"/>
+    <meta name="image" content="@Model.blogPost.metaImage"/>
 }
+
 
 <div class="blogpost">
     <h3>
